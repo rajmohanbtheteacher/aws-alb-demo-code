@@ -2,8 +2,8 @@
 // JavaScript to fetch metadata from EC2 instances (within private subnet via ALB)
 
 const endpoints = {
-  "meta-1": "/meta1",
-  "meta-2": "/meta2"
+  "meta-1": "/metadata",
+  "meta-2": "/metadata"
 };
 
 Object.entries(endpoints).forEach(([elementId, path]) => {
